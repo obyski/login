@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+div.body {
+    width: 400px;
+    height: 300;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#btn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #7c48bf;
+    color: white;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    border-style: none;
+    font-size: 1rem;
+}
+  
+  
+p {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    border-style: solid;
+    font-size: 1rem;
+}
+
+form div {
+    margin-bottom: 1.5rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input::placeholder {
+    text-transform: capitalize;
+}
+
+.card {
+    width: 450px;
+    height: 300;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 200px;
+    border-radius: 8px;
+}
+
+img {
+    width: 150px;
+    padding-top: 20px;
+}
